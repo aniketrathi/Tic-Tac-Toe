@@ -72,7 +72,7 @@ function fun(event) {
 		return;
 	var node=event.target;
 	if(node.value == 'X' || node.value =='O'){
-		document.getElementById('results').innerHTML="<h2>Invalid Move!</h2>";
+		alert("Invalid move");
 		return;
 	}
 	row=node.id.charAt(0);
